@@ -92,7 +92,9 @@ onPress = {() => {SetIsButton(12);}}
 style={styles.button}
 ><Text style={styles.textbutton}>Кнопка 12</Text></Pressable>
 </SafeAreaView>
+< SafeAreaView  style={styles.Text11}>
 <Text style={styles.Text1}>Текущая задача : {isButton}</Text>
+</SafeAreaView>
 
 </View>
 );
@@ -115,7 +117,13 @@ height : '70%',
 buttons:{
 flexDirection:"row",
 flexWrap: "wrap",
-height:'15%',
+height:'20%',
+backgroundColor: 'aquamarine',
+},
+Text11:{
+flexWrap: "wrap",
+height:'25%',
+width:'100%',
 backgroundColor: 'aquamarine',
 },
 button:{
@@ -189,6 +197,6 @@ justifyContent:"space-between",
 },
 Text1:{
 color: 'black',
-textAlign: "center",
+justifyContent:'center',
 }
 });
