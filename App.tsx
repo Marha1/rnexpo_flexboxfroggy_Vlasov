@@ -121,8 +121,11 @@ height:'20%',
 backgroundColor: 'aquamarine',
 },
 Text11:{
+ borderRadius: 5,
+    alignItems: "center",
+justifyContent:"center",
 flexWrap: "wrap",
-height:'25%',
+height:'10%',
 width:'100%',
 backgroundColor: 'aquamarine',
 },
@@ -197,6 +200,5 @@ justifyContent:"space-between",
 },
 Text1:{
 color: 'black',
-justifyContent:'center',
 }
 });
