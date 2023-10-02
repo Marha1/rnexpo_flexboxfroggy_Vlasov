@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
         flexWrap: "wrap",
         height: "20%",
         backgroundColor: "aquamarine",
-        justifyContent: 'space-between',
+        justifyContent: "space-between",
     },
     Text11: {
         borderRadius: 5,
@@ -213,7 +213,6 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         alignItems: "center",
         justifyContent: "center",
-
     },
     textbutton: {
         fontWeight: "700",
